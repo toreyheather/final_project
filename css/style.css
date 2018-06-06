@@ -1,0 +1,25 @@
+body {
+    background-color: mediumaquamarine;
+}
+
+img{
+    border-radius: 50%;
+    align-self: center;
+}
+
+.pageNav {
+    border: 10px solid black;
+    padding: 50px;
+    max-width: 400px;
+    text-align: center;
+}
+.time {
+    display: inline-block;
+    width: 33%;
+    margin-right: -4px;
+    vertical-align: top;
+    text-align: left;
+}
+h2 {
+    text-align: center;
+}
