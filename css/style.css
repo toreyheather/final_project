@@ -1,11 +1,10 @@
-body {
-    background-color: mediumaquamarine;
+
+
+h1{
+    text-align: center;
 }
 
-img{
-    border-radius: 50%;
-    align-self: center;
-}
+
 
 .pageNav {
     border: 10px solid black;
@@ -13,6 +12,19 @@ img{
     max-width: 400px;
     text-align: center;
 }
+.selfie{
+    border-radius: 50%; 
+}
+.project{
+    border: black solid 1px;
+}
+
+
+
+
+
+
+/*
 .time {
     display: inline-block;
     width: 33%;
@@ -20,6 +32,4 @@ img{
     vertical-align: top;
     text-align: left;
 }
-h2 {
-    text-align: center;
-}
+
