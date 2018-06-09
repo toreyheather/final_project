@@ -2,23 +2,48 @@
 
 h1{
     text-align: center;
+    background:#00cc99;
+    font-size: 3em;
+    padding: .25em;
+}
+.name{
+    padding: 1em;
+}
+body{
+    background: #e6fff9;
 }
 
-
-
 .pageNav {
-    border: 10px solid black;
     padding: 50px;
     max-width: 400px;
     text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.button {
+    background-color:tomato;
+    font-size: 2em;
+    text-transform: uppercase;
+    display: block;    
+    text-decoration: none;
+    
+}
+
+.button:hover {
+    background-color: yellow;
+}
+
 .selfie{
-    border-radius: 50%; 
+    border-radius: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .project{
     border: black solid 1px;
 }
-
 
 
 
