@@ -3,7 +3,7 @@
 h1{
     text-align: center;
     background:#00cc99;
-    font-size: 3em;
+    font-size: 2em;
     padding: .25em;
 }
 .name{
@@ -24,7 +24,7 @@ body{
 
 .button {
     background-color:tomato;
-    font-size: 2em;
+    font-size: 1.5em;
     text-transform: uppercase;
     display: block;    
     text-decoration: none;
@@ -47,6 +47,9 @@ body{
 
 .container{
    display:flex; 
+   justify-content: space-around;
+   flex-wrap:wrap;
+   padding: 0px 0px;
 }
 
 li{
@@ -56,6 +59,10 @@ li{
     border-radius: 3px;
     list-style-type: none;
     text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
 }
 
 li:hover{
