@@ -1,5 +1,21 @@
 
+/*=====================
+page style
+====================*/
+body{
+    background: #e6fff9;
+    max-width: 95%;
+    align-content: center;
+    margin: 0 auto;
+}
 
+a{
+    text-decoration: none;
+}
+
+/*=====================
+sidebar
+====================*/
 h1{
     text-align: center;
     background:#00cc99;
@@ -7,13 +23,16 @@ h1{
     padding: .25em;
     margin: auto;
 }
+
 .name{
     padding: 1em;
 }
-body{
-    background: #e6fff9;
-    max-width: 95%;
-    align-content: center;
+
+.selfie{
+    border-radius: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pageNav {
@@ -27,63 +46,82 @@ body{
 }
 
 .button {
-    background-color:tomato;
     font-size: 1.5em;
     text-transform: uppercase;
     display: block;    
     text-decoration: none;
     
 }
+/*=====================
+project carousel
+====================*/
 
-.button:hover {
-    background-color: yellow;
-}
-
-.selfie{
-    border-radius: 50%;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-}
 .project{
     border: black solid 1px;
 }
 
+/*=====================
+social media
+====================*/
+
 .container{
-   display:flex; 
-   justify-content: space-around;
-   padding: 5px 5px;
-   flex-wrap: wrap;
+    display:flex; 
+    justify-content: space-around;
+    padding: 5px 5px;
+    flex-wrap:wrap;
+ }
+ 
+ .icon{
+     max-width: 5em;
+ }
+ 
+ li{
+     padding: 15px;
+     margin: 5px;
+     border-radius: 3px;
+     list-style-type: none;
+     text-transform: uppercase;
+ }
+ 
+
+ /*=====================
+hovers
+====================*/
+ 
+.hover{
+    background-color: tomato;
 }
 
-.icon{
-    max-width: 5em;
-}
-
-li{
-    padding: 15px;
-    margin: 5px;
-    background: tomato;
-    border-radius: 3px;
-    list-style-type: none;
-    text-transform: uppercase;
-}
-
-a{
-    text-decoration: none;
-}
-
-li:hover{
+.hover:hover{
     background-color: yellow;
 }
 
-
-/*
-.time {
-    display: inline-block;
-    width: 33%;
-    margin-right: -4px;
-    vertical-align: top;
-    text-align: left;
+ /*=====================
+media queries
+====================*/
+@media (min-width: 503px) and (max-width:790px) {
+    body{
+        background-color: black;
+    }
+    /*make flexbox two rows of three*/
 }
 
+@media (min-width: 1000px){
+/*change to side nave layout*/
+   body{
+       display:flex;
+   }
+
+   .section{
+       padding: 10px;
+   }
+
+    .time {
+        display: inline-block;
+        width: 33%;
+        margin-right: -4px;
+        vertical-align: top;
+        text-align: left;
+    }
+
+}
