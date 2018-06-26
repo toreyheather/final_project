@@ -58,6 +58,7 @@ project carousel
 
 .project{
     border: black solid 1px;
+    height: 600px;
 }
 
 /*=====================
@@ -110,10 +111,24 @@ media queries
 /*change to side nave layout*/
    body{
        display:flex;
+       flex-wrap: wrap;
+   }
+   
+   header{
+        flex:30%;
+   }
+
+   main{
+       max-width: 60%;
+   }
+
+   footer{
+       flex: 60%
    }
 
    .section{
        padding: 10px;
+       flex-grow: 1;
    }
 
     .time {
