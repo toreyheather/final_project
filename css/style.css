@@ -37,12 +37,12 @@ h1{
 
 .pageNav {
     padding: 5px;
-    max-width: 400px;
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 16px;
+    max-width: 400px;
 }
 
 .button {
@@ -106,20 +106,20 @@ media queries
         max-width: 450px;
         margin: auto;
     }
-    /*make flexbox two rows of three*/
 }
-
+@media (min-height: 775px) {
+    header{
+        position: fixed;
+    }    
+}
 @media (min-width: 1235px){
-/*change to side nav layout*/
-   
+/*change to side nav layout*/ 
    body{
        margin-top: 34px;
    }
    header{
-        max-width: 30%;
         float: left;
-        position: fixed;
-        height: 100%;
+        
    }
 
    main{
